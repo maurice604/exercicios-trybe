@@ -104,10 +104,10 @@ const expectedResult = [
         },
         releaseYear: 1965,
     },
-]
+];
 function fantasyOrScienceFiction() {
     // escreva seu código aqui
     return books.filter((param) => param.genre === 'Fantasia' || param.genre === 'Ficção Científica');
 };
-//console.log(fantasyOrScienceFiction());
+console.log(fantasyOrScienceFiction());
 assert.deepEqual(fantasyOrScienceFiction(), expectedResult);
